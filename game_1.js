@@ -41,7 +41,7 @@ var userInput
         
         if(userInput === words[wordIndex].a){
             console.log(userInput)
-            document.getElementById("first").innerHTML = "c";
+            document.getElementById("letter").innerHTML = "c";
             score++;
             updateScore();
         }else{
